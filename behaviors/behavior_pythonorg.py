@@ -21,7 +21,7 @@ def driver():
         options=options
     )
     yield driver
-    driver.close()
+    driver.quit()
 
 
 # NOTE: It's better to use test libraries supporting declarative syntax.
